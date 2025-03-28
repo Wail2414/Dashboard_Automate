@@ -8,7 +8,7 @@ import ScatterGraph from "./components/ScatterGraph";
 import DragBox from "./DraggableBox/DragBox";
 import Drag from "./DraggableBox/MyResponsiveGrid";
 import Sidebar from "./components/Sidebar";
-
+//test
 export default function Home() {
   return (
     <main>
