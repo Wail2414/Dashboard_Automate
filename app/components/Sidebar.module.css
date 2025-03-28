@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  height: 100vh; /* Prend toute la hauteur */
+  width: 100vw; /* Prend toute la largeur */
+  overflow: hidden; /* Évite les marges inutiles */
+}
+
+.sidebar {
+  transition: width 0.3s ease-in-out;
+  height: 100vh; /* Assure que la sidebar prend toute la hauteur */
+}
+
+.mainContent {
+  flex: 1;
+  height: 100vh; /* Assure que le contenu prend toute la hauteur */
+  width: 100%;
+  background-color: #f3f4f6;
+  padding: 20px;
+}
